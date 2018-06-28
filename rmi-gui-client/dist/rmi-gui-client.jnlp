@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="rmi-gui-client.jnlp">
+  <information>
+    <title>rmi-gui-client</title>
+    <vendor>dell</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib/rmi-api.jar" size="1173" download="eager" />
+    <jar href="rmi-gui-client.jar" size="3435" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="rmi-gui-client" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="com.dt.project.gui.client.Main"  name="rmi-gui-client" />
+  <update check="always"/>
+</jnlp>
